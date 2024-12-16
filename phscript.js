@@ -455,13 +455,6 @@ function loadContent(page) {
     } else {
         homeImageContainer.classList.add('hidden');
     }
-
-    // Scroll to the top of the page
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth' // Optional: smooth scrolling
-    });
-
     switch (page) {
         case 'article':
             renderArticlePage(container);
