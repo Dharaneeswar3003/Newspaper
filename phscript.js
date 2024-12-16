@@ -407,7 +407,7 @@ function updateActiveNavLink(page) {
     });
 }
 
-// Function to load content based on the current URL path
+
 function loadContent(page) {
     const container = document.querySelector('.main'); // Main content container
     const homeImageContainer = document.querySelector('.homeimage-container');
@@ -418,6 +418,12 @@ function loadContent(page) {
     } else {
         homeImageContainer.classList.add('hidden');
     }
+
+    // Scroll to the top of the page
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Optional: smooth scrolling
+    });
 
     switch (page) {
         case 'article':
@@ -445,8 +451,9 @@ function loadContent(page) {
     }
 
     updateActiveNavLink(page);
-    history.pushState({ page }, '', `/${page}`);  // Push state to update the URL
+    history.pushState({ page }, '', `/${page}`); // Push state to update the URL
 }
+  
 
 // Add event listener for popstate to handle back/forward navigation
 window.addEventListener('popstate', (event) => {
