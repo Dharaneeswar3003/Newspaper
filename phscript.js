@@ -2,6 +2,7 @@ const articles = [
     {
         id: 1,
         writers: 'Sean Wallace (09) & Tony Xu (09)',
+        editor: 'Guanlin Wang (12)',
         title: 'Mastering the Capstone: Teacher Tips and Insights for Success',
         description: 'Several teachers shared their valuable insights and advice to help students succeed with their Capstone projects. Through interviews, Ms. Vanderklippe, Mr. Raoul, Ms. Liao, and Mr. Nugent provided advice on choosing a meaningful topic, managing time, and overcoming challenges like procrastination.',
         content: `
@@ -19,6 +20,7 @@ const articles = [
     {
         id: 2,
         writers: 'Johanna Kim (11) & Lina Kotoge (11)',
+        editor: 'Tara Pai (11)',
         title: 'Festive Fun in Vancouver: Top Christmas Events to Celebrate the Season!',
         description: 'A variety of festive events in Vancouver this holiday season offer something for everyone. These events include a mix of markets, live performances, and light displays, with options for both paid and free activities. From holiday shopping and seasonal treats to family-friendly entertainment and parades, there are plenty of opportunities to celebrate the season with loved ones.',
         content: `
@@ -71,7 +73,8 @@ const articles = [
     },
     {
         id: 3,
-        writers: 'Hank Cheung (11)',
+        writers: 'Hank Cheung (10)',
+        editor: 'Guanlin Wang (12)',
         title: 'Senior Boys Soccer Team Reflects on a Season of Resilience and Growth',
         description: 'The Senior Boys Soccer Team’s season was a mix of strong performances and missed opportunities, with key victories and narrow defeats shaping their journey. Despite falling short of their championship goals, the team’s resilience and standout players set the stage for future success.',
         content: `
@@ -88,6 +91,7 @@ const articles = [
     {
         id: 9,
         writers: 'Bruce Zhang (12)',
+        editor: 'Keetan Ner (11)',
         photocredit: 'Vancouver School Board',
         title: 'Student Perspectives on Block Flip',
         description: 'Block flip is a controversial event with divided student opinions. Some students appreciate it for promoting fairness, as it allows all students to benefit from test hints, while others criticize it for adding stress, particularly for grade 12 students already managing heavy workloads. Despite the mixed views, block flip has been a long-standing tradition and is likely to remain in place.',
@@ -100,6 +104,7 @@ const articles = [
         id: 4,
         writers: 'Ivy Kettlewell (11)',
         title: 'History of Byng Arts',
+        editor: 'Tara Pai (11)',
         description: 'The Lord Byng Arts Mini School, established in 1999, has provided a supportive space for artistic expression, evolving from grassroots programs in music and drama to five distinct focus areas. The program has significantly contributed to Lord Byng’s reputation as Vancouver’s top secondary school. Despite recent debates on mini schools and streaming, including a controversial decision to cancel senior Byng Arts courses in 2024, the community remains strong.',
         content: `
             <p>For the last 25 years, Lord Byng Arts Mini School has been a safe space for students to express their artistic creativity. Established in 1999 to redefine academic merit and arts education, Byng Arts has made its home school the well-respected institution it is today. The mini school has flourished over the years, expanding its grassroot programs of music and drama to make five individual focus areas where every student is able to hone their vocation. Thanks to the program, Lord Byng became and remains the top secondary school in the Vancouver district.</p>
@@ -119,6 +124,7 @@ const articles = [
         id: 5,
         writers: 'Emma Wang & Leala Chang ',
         title: 'The Stinkin’ Truth',
+        editor: 'Charlie Zhang (10)',
         description: 'Lord Byng’s washrooms face ongoing complaints about poor facilities, wasteful behavior, and funding challenges. Issues like empty soap dispensers, broken sinks, and low-quality materials reflect broader resource allocation concerns. While improvements are discussed, financial constraints make significant changes unlikely without district support.',
         content: `
             <p>The story for our washrooms starts the way most mysteries do: something feels off, but you can’t quite put your finger on it. Picture a student walking to class, minding their own business, when suddenly nature calls. They pace to the nearest bathroom, most likely 2 floors away, only to enter a world most are unable to explain.The soap dispensers, empty. The sinks, far from being your allies, either unleash torrential streams of scorching hot water or stubbornly refuse to work. And the stall doors? They hang ajar like they’re inviting an audience to your now not so private moment. Somewhere in the corner, a stick figure drawn in marker stares back at you from the wall, frozen in time just like the poor student’s reaction. The question hangs in the air like the faint, ever-present odor we all try not to notice: <em> Why are the bathrooms like this? </em></p>
@@ -144,6 +150,7 @@ const articles = [
     {
         id: 6,
         writers: 'Felix Zhou (10)',
+        editor: 'Guanlin Wang (12)',
         title: '2024-25 NHL Predictions',
         description: 'In the Atlantic, the Toronto Maple Leafs, Florida Panthers, and Boston Bruins are seen as top contenders, with the Panthers slightly favored due to current trends. The Metropolitan Division shows a close split between the New Jersey Devils, bolstered by improved goaltending, and the New York Rangers. The Dallas Stars lead predictions in the Central Division, while the Pacific Division sees the Edmonton Oilers favored after their strong comeback last season. With much of the season remaining, these standings are far from settled.',
         content: `
@@ -161,6 +168,7 @@ const articles = [
     {
         id: 7,
         writers: 'Lydia Fan (10)',
+        editor:'Charlie Zhang (10)',
         title: 'Upcoming Events in Wesbrook Village and the Old Barn Community Centre',
         description: 'Wesbrook Village and the Old Barn Community Centre are hosting festive events this holiday season. Highlights include a Winter Festival, Family Movie Night, a Holiday Market, and a Winter Masquerade Dance Party, featuring crafts, music, dancing, and local vendors.',
         content: `
@@ -171,13 +179,14 @@ const articles = [
 
         `,
         category: 'Events',
-        photocredit: 'Scott COnstruction Group',
+        photocredit: 'Scott Construction Group',
         image: 'Lydia.jpg',
         pages: ['home', 'local-news', 'allarticles'],
     },
     {
         id: 8,
         writers: 'Emily (10), Tyron (10), Charlie (10)',
+        editor: 'Keetan Ner (11)',
         title: 'Building a Better Byng: Positive Developments for the School',
         description: 'What if our school was better? Lord Byng has progressively shown its shortcomings through student life challenges such as cramped hallways, pervasive vaping and frequent theft. However, through installing a travelator in the hallways, a vape detector and enhanced security measures around the school, it may be possible to rebuild a prosperous environment with eager students that are ready to embark on their studious journey and improve their quality of life.',
         content: `
@@ -191,6 +200,31 @@ const articles = [
         photocredit: 'Lord Byng Administration',
         image: 'Emily.png',
         pages: ['home', 'features', 'allarticles'],
+    },
+    {
+        id: 10,
+        writers: 'Lottie Gilmore (09)',
+        editor: 'Tara Pai (11)',
+        title: 'Record-Breaking Tour Ends in Vancouver',
+        description: 'What if our school was better? Lord Byng has progressively shown its shortcomings through student life challenges such as cramped hallways, pervasive vaping and frequent theft. However, through installing a travelator in the hallways, a vape detector and enhanced security measures around the school, it may be possible to rebuild a prosperous environment with eager students that are ready to embark on their studious journey and improve their quality of life.',
+        content: `
+            <p>Since its debut in spring of 2023, Taylor Swift’s ‘The Eras Tour’ has become not only a global phenomenon with 150 tour dates all over the world but also became the highest-grossing tour of all time, with over one billion dollars in ticket sales. After a momentous two-year run, <em>The Eras Tour</em> ended in our city of Vancouver! From December sixth through eighth, thousands of fans gathered down at BC place for what certainly was a memorable end to an unforgettable tour. Though many fans are sad to see the tour end, Swift has given her fans two years' worth of memories that they will cherish forever. </p>
+            <p>Since Swift’s Tour was set to end in our great city of Vancouver, local businesses and organizations had been preparing for the exciting event. Especially since studies showed that the concert will bring an estimated 157 million dollars to Vancouver’s economy, with 97 million of that spending going towards local accommodations, food, and transportation, most likely from out-of-town fans, of course Vancouver is preparing for all the business. Mayor Ken Sim stated in an interview that “This iconic event hasn’t just captivated audiences around the world, it has translated into a huge economic boost for every city it has visited, and Vancouver is no exception.” (“Economic impact of Taylor Swift’s Eras Tour in Vancouver estimated at ...”) The Vancouver tour dates were expected to bring an estimated 150,000 fans downtown. There were over 82,000 hotel rooms booked for that time, and many of the remaining accommodations were being listed for over a thousand dollars each. It’s not just businesses that are preparing for the chaos. Destination Downtown, a local organization, put up giant light-up signs that have been spotted around downtown and Granville Island, with the names of Swift’s songs, thirteen of them in all, including the “Vancouver” sign in Coal Harbor, which was altered to say “Swiftcouver.”  Local fans surely appreciated the city’s efforts, and I'm sure visiting fans put many of the Taylor Swift themed destinations on their itineraries.  </p>
+            <p>I can’t talk about <em>The Eras Tour</em> without, of course, talking about the dedicated fans. The fans are what make each concert lively and fun, what Swift herself has said fuels her to make the music in the first place, and, of course, it is the fans who will make the economy in Vancouver explode. As mentioned before, local fans have been decorating Vancouver, planning Swiftie events, and making infinite numbers of bracelets. Michaels has noted a 300 per cent increase in bead sales and has made over 22,000 bracelets with fans through in-store classes. Fans take this tradition very seriously. Fans have other fun traditions at the concert other than friendship bracelets, too! During the concert, after Swift plays fan favorite song “Champagne Problems,” from her 2021 album <em>Evermore</em>, the whole stadium gives Swift a standing ovation. The tradition is a type of challenge. What city can give Swift the longest standing ovation? The record is approximately eight minutes from her performance at SoFi stadium in California. Vancouver did not break that record but still gave Swift amazing long ovations. Finally, this last one is not a tradition, per se, but during concert dates in Seattle, fans singing and dancing during Swift’s 2014 hit song “Shake it Off”, caused seismic activity equal to a 2.3 magnitude earthquake. It was coined the ‘Swiftquake.’ Just goes to show how devoted and spirited Swifties can be. Swift stated on the final performance night that over ten million people came to her tour over the course of two years. Swifties take extraordinary pride in their fandom, and Swift herself has spent much of her time trying to make the fandom as welcoming and fun as possible, which is certainly paying off. </p>
+            <p>As someone who was able to go to the concert, I had the best time. From opener Gracie Abrams playing her new album, <em>The Secret of Us</em>, to Swift appearing in her bejeweled outfits, I can safely say that I, along with the rest of Vancouver, will not soon forget the experience. Everyone was given a glow bracelet at the gate, which created waves of colors during Swift’s songs. The whole concert was bright, fun, and nostalgic, because of Swift playing all of her old songs. Even if you were unable to obtain tickets, downtown events like “Taylor Town” in Yaletown were full of music, Taylor Swift themed activities, and like-minded fans from all over Vancouver. On night two, I was able to go outside BC place and listen to the concert. There were well over a hundred people there, all trading bracelets and singing their hearts out. Both experiences were just as magical, whether you could get tickets or not. The end to <em>The Eras Tour</em> was certainly a joyful one. </p>
+            <p> So, what is next for Swift? How could she possibly do more? At the final three concerts, fans (myself included) noticed that Swift was filming herself onstage with a camera crew. The same thing happened outside of the stadium, where the fans tailgating the stadium were filmed by a similar crew with a public filming notice. What could Swift be filming for? A rerelease of her record–breaking concert film, maybe? She is also set to begin filming her directorial debut next year. It is in development right now. There still are two rerecordings of her albums to be released, of her sixth studio album Reputation, and her Self-Titled debut LP. There’s no rest for this superstar!  </p>
+            <p>Amazing Statistics:</p>
+            <ul>
+            <li>Swift played her song “All Too Well (Ten Minute Version)” live for 1,490 minutes on the tour, equivalent to over 24 hours! </li>
+            <li>She performed onstage for over 520 hours, equivalent to almost twenty-two days</li>
+            <li>She performed in 5 of the 7 continents: North America, South America, Asia, Europe, and Australia </li>
+            <li>The whole tour, from March 17, 2023, to December 8, 2024, lasted 633 days total, including tour breaks. </li>
+            <li>She announced three albums over the course of the tour, <em>Speak Now (Taylor’s Version), 1989 (Taylor’s Version), and The Tortured Poets Department</em> </li>
+            </ul>
+        `,
+        category: 'Vancouver',
+        image: 'Lottie.jpg',
+        pages: ['home', 'local-news', 'allarticles'],
     },
 ];
 
@@ -240,6 +274,7 @@ function renderArticlePage(container) {
             <section class="article-fullscreen">
                 <h1 class="article-title">${articleData.title}</h1>
                 <p1 class = "article-writer">${articleData.writers}</p1>
+                <p1 class = "article-editor">${articleDtata.editor}</p1>
                 <br>
                 <img src="${articleData.image}" alt="${articleData.title}" class="article-image" style="max-width: 100%; height: auto;">
                 <br>
