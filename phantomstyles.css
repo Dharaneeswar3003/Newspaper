@@ -73,7 +73,8 @@
 }
 
 .article-writer,
-.article-credit {
+.article-credit,
+.article-editor {
     color: #BB2C2C;
 }
 
@@ -148,7 +149,7 @@ font-family: 'Times New Roman', Times, serif;
     }
     
     header {
-        position: relative;
+        position: sticky;
         top: 0;
         left: 0;
         width: 100%;
