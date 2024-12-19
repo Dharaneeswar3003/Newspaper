@@ -464,9 +464,7 @@ function loadContent(page) {
         homeImageContainer.classList.add('hidden');
     }
 
-   // Scroll to top
-    window.scrollTo(0, 0);
-
+    // Render the page content based on the selected page
     switch (page) {
         case 'article':
             renderArticlePage(container);
@@ -491,7 +489,14 @@ function loadContent(page) {
             renderHomePage(container);
             break;
     }
+
+    // Scroll to the top of the page explicitly
+    window.scrollTo(0, 0);
+
+    updateActiveNavLink(page);
+    history.pushState({ page }, '', `/${page}`);
 }
+            
 
 // Function to update active navigation links
 function updateActiveNavLink(page) {
