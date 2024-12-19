@@ -491,9 +491,6 @@ function loadContent(page) {
             renderHomePage(container);
             break;
     }
-
-    updateActiveNavLink(page);
-    history.pushState({ page }, '', `/${page}`);
 }
 
 // Function to update active navigation links
