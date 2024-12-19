@@ -75,6 +75,7 @@ const articles = [
         id: 3,
         writers: 'Hank Cheung (10)',
         editor: 'Guanlin Wang (12)',
+        photocredit: 'Caitlyn Wallace (12)',
         title: 'Senior Boys Soccer Team Reflects on a Season of Resilience and Growth',
         description: 'The Senior Boys Soccer Team’s season was a mix of strong performances and missed opportunities, with key victories and narrow defeats shaping their journey. Despite falling short of their championship goals, the team’s resilience and standout players set the stage for future success.',
         content: `
@@ -92,10 +93,10 @@ const articles = [
         id: 9,
         writers: 'Bruce Zhang (12)',
         editor: 'Keetan Ner (11)',
-        photocredit: 'Vancouver School Board',
+        photocredit: 'VSB',
         title: 'Student Perspectives on Block Flip',
         description: 'Block flip is a controversial event with divided student opinions. Some students appreciate it for promoting fairness, as it allows all students to benefit from test hints, while others criticize it for adding stress, particularly for grade 12 students already managing heavy workloads. Despite the mixed views, block flip has been a long-standing tradition and is likely to remain in place.',
-        content: 'Block flip has been something that receives significant attention during its annual occurrence. Student opinions on it are mixed. In one interview with a student, they noted that it is something that brings equality and fairness. They reasoned that since many courses have multiple blocks in a day, the students who have a later block hold an advantage as they can be made aware of ‘hints’ regarding a test that the students in the earlier block have already taken. With block flip, students in the earlier block will also be able to take advantage from this information. However, during another interview, the student considered it a terrible event that should be eliminated entirely. Especially as they are in grade 12, they express concern about the additional stress it creates, stating that they already have an overwhelming number of responsibilities to manage. Block flip has been present even before the introduction of the semester system, so despite divided student opinions, it is likely going to remain in place.',
+        content: '<br>Block flip has been something that receives significant attention during its annual occurrence. Student opinions on it are mixed. In one interview with a student, they noted that it is something that brings equality and fairness. They reasoned that since many courses have multiple blocks in a day, the students who have a later block hold an advantage as they can be made aware of ‘hints’ regarding a test that the students in the earlier block have already taken. With block flip, students in the earlier block will also be able to take advantage from this information. However, during another interview, the student considered it a terrible event that should be eliminated entirely. Especially as they are in grade 12, they express concern about the additional stress it creates, stating that they already have an overwhelming number of responsibilities to manage. Block flip has been present even before the introduction of the semester system, so despite divided student opinions, it is likely going to remain in place.',
         category: 'School',
         image: 'Bruce.png',
         pages: ['home', 'school-news', 'allarticles'],
@@ -203,7 +204,7 @@ const articles = [
         writers: 'Lottie Gilmore (09)',
         editor: 'Tara Pai (11)',
         title: 'Record-Breaking Tour Ends in Vancouver',
-        description: 'What if our school was better? Lord Byng has progressively shown its shortcomings through student life challenges such as cramped hallways, pervasive vaping and frequent theft. However, through installing a travelator in the hallways, a vape detector and enhanced security measures around the school, it may be possible to rebuild a prosperous environment with eager students that are ready to embark on their studious journey and improve their quality of life.',
+        description: 'Taylor Swift’s <em>The Eras Tour</em> wrapped up its record-breaking two-year run with an unforgettable finale in Vancouver, leaving fans and the city buzzing with excitement. Vancouver embraced the Swiftie spirit with themed events, light displays, and skyrocketing bead sales for bracelet-making traditions. As the curtain falls on <em>The Eras Tour</em>, all eyes are on Swift’s next chapter—her upcoming film and much-anticipated album rereleases.',
         content: `
             <p>Since its debut in spring of 2023, Taylor Swift’s ‘The Eras Tour’ has become not only a global phenomenon with 150 tour dates all over the world but also became the highest-grossing tour of all time, with over one billion dollars in ticket sales. After a momentous two-year run, <em>The Eras Tour</em> ended in our city of Vancouver! From December sixth through eighth, thousands of fans gathered down at BC place for what certainly was a memorable end to an unforgettable tour. Though many fans are sad to see the tour end, Swift has given her fans two years' worth of memories that they will cherish forever. </p>
             <p>Since Swift’s Tour was set to end in our great city of Vancouver, local businesses and organizations had been preparing for the exciting event. Especially since studies showed that the concert will bring an estimated 157 million dollars to Vancouver’s economy, with 97 million of that spending going towards local accommodations, food, and transportation, most likely from out-of-town fans, of course Vancouver is preparing for all the business. Mayor Ken Sim stated in an interview that “This iconic event hasn’t just captivated audiences around the world, it has translated into a huge economic boost for every city it has visited, and Vancouver is no exception.” (“Economic impact of Taylor Swift’s Eras Tour in Vancouver estimated at ...”) The Vancouver tour dates were expected to bring an estimated 150,000 fans downtown. There were over 82,000 hotel rooms booked for that time, and many of the remaining accommodations were being listed for over a thousand dollars each. It’s not just businesses that are preparing for the chaos. Destination Downtown, a local organization, put up giant light-up signs that have been spotted around downtown and Granville Island, with the names of Swift’s songs, thirteen of them in all, including the “Vancouver” sign in Coal Harbor, which was altered to say “Swiftcouver.”  Local fans surely appreciated the city’s efforts, and I'm sure visiting fans put many of the Taylor Swift themed destinations on their itineraries.  </p>
@@ -224,7 +225,6 @@ const articles = [
         pages: ['home', 'local-news', 'allarticles'],
     },
 ];
-
 
 // Function to load articles dynamically
 function loadArticles(page, containerId) {
@@ -271,17 +271,17 @@ function renderArticlePage(container) {
             <section class="article-fullscreen">
                 <h1 class="article-title">${articleData.title}</h1>
                 <p1 class = "article-writer">${articleData.writers}</p1>
-                <p1 class = "article-editor">${articleDtata.editor}</p1>
                 <br>
+                <p1 class = "article-editor"><em>Edited by: ${articleData.editor}</em></p1>
                 <img src="${articleData.image}" alt="${articleData.title}" class="article-image" style="max-width: 100%; height: auto;">
                 <br>
                 <p1 class = "article-credit">Photo credit: ${articleData.photocredit}</p1>
-                <br>
                 <p class="article-body">${articleData.content}</p>
             </section>
             <section class = "backbutton">
             <button id="back-button">Back</button>
             </section>
+            <br>
         `);
 
         document.getElementById('back-button').addEventListener('click', () => {
@@ -289,6 +289,17 @@ function renderArticlePage(container) {
         });
     } else {
         renderPage(container, '<p>No article data available.</p>');
+    }
+}
+
+// Function to handle the 'More Articles' button click
+function setupMoreArticlesButton() {
+    const moreArticlesButton = document.getElementById('more-articles'); // Targeting the More Articles button by its ID
+
+    if (moreArticlesButton) {
+        moreArticlesButton.addEventListener('click', () => {
+            loadContent('allarticles'); // This will navigate to the All Articles page
+        });
     }
 }
 
@@ -318,6 +329,7 @@ function renderHomePage(container) {
         </section>
     `;
     loadArticles('home', 'home-articles');
+    setupMoreArticlesButton();
 }
 
 // Function to render other pages
@@ -367,7 +379,7 @@ function renderAboutPage(container) {
                     <div class="member-info">
                         <h3><strong>Julian Cohen Wood</strong></h3>
                         <h2>Social Media and Promotions</h2>
-                        <p>I manage and maintain the newspaper’s social media, ensuring it is engaging, informative, and up-to-date. I promote content by posting weekly summaries of meetings, notifications of upcoming events, and other relevant updates.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique luctus ante, sed posuere diam. Sed congue nisl ac accumsan auctor. Morbi aliquam dignissim ex a cursus.</p>
                     </div>
                 </section>
                 <hr>
@@ -380,7 +392,7 @@ function renderAboutPage(container) {
                     <div class="member-info">
                         <h3><strong>Leo Ke</strong></h3>
                         <h2>Executive Editor</h2>
-                        <p>I create PowerPoint presentations for editing and writing, providing clear guidelines and tools for the articles. I review, edit, and approve all articles before publication to maintain the newspaper’s quality and standards.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique luctus ante, sed posuere diam. Sed congue nisl ac accumsan auctor. Morbi aliquam dignissim ex a cursus.</p>
                     </div>
                 </section>
                 <hr>
@@ -393,7 +405,7 @@ function renderAboutPage(container) {
                     <div class="member-info">
                         <h3><strong>Lucca Ha</strong></h3>
                         <h2>Secretary</h2>
-                        <p>I handle the newspaper’s finances, keeping track of expenses, and organizing fundraising activities. I also make sure the club runs smoothly by managing attendance and coordinating activities.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique luctus ante, sed posuere diam. Sed congue nisl ac accumsan auctor. Morbi aliquam dignissim ex a cursus.</p>
                     </div>
                 </section>
             </div>
@@ -415,18 +427,18 @@ function renderContactPage(container) {
 
 
 function renderNewsPage(container) {
-    container.innerHTML = '<section class = "school-news"><h1> School</h1><div id="schoolnews-articles" class="articles-container"></div></section><br><br><section class = "local-news"><h1> Local</h1><div id="localnews-articles" class="articles-container"></div></section>';
+    container.innerHTML = '<section class = "school-news"><h1> School News</h1><div id="schoolnews-articles" class="articles-container"></div></section><br><br><section class = "local-news"><h1> Local News</h1><div id="localnews-articles" class="articles-container"></div></section>';
     loadArticles('school-news', 'schoolnews-articles');
     loadArticles('local-news', 'localnews-articles');
 }
 
 function renderFeaturesPage(container) {
-    container.innerHTML = '<section class = "features"><h1>Features</h1><br><div id="features-articles" class="articles-container"></div></section>';
+    container.innerHTML = '<section class = "features"><h1>Features</h1><div id="features-articles" class="articles-container"></div></section>';
     loadArticles('features', 'features-articles');
 }
 
 function renderAllArticlesPage(container) {
-    container.innerHTML = '<section class="allarticles"><h1>All Articles</h1><div id="all-articles" class="articles-container"></div></section>';
+    container.innerHTML = '<section class="allarticles"><h1>All Articles</h1><br><div id="all-articles" class="articles-container"></div></section>';
     loadArticles('allarticles', 'all-articles');
 }
 
@@ -441,7 +453,6 @@ function updateActiveNavLink(page) {
     });
 }
 
-
 function loadContent(page) {
     const container = document.querySelector('.main'); // Main content container
     const homeImageContainer = document.querySelector('.homeimage-container');
@@ -452,6 +463,10 @@ function loadContent(page) {
     } else {
         homeImageContainer.classList.add('hidden');
     }
+
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
     switch (page) {
         case 'article':
             renderArticlePage(container);
@@ -478,41 +493,54 @@ function loadContent(page) {
     }
 
     updateActiveNavLink(page);
-    history.pushState({ page }, '', `/${page}`); // Push state to update the URL
+    history.pushState({ page }, '', `/${page}`);
 }
-  
 
-// Add event listener for popstate to handle back/forward navigation
-window.addEventListener('popstate', (event) => {
-    // Get the page from the state, or default to 'home' if not defined
-    const page = event.state?.page || 'home';
-    loadContent(page); // Load the content based on the current state
-});
-
-
+// Function to update active navigation links
+function updateActiveNavLink(page) {
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${page}`);
+    });
+}
 
 // Hamburger Menu Functionality
 function setupHamburgerMenu() {
     const hamburgerButton = document.getElementById('hamburger-button');
+    const closeButton = document.getElementById('close-button');
     const mobileMenu = document.getElementById('mobile-menu');
 
-    if (hamburgerButton && mobileMenu) {
+    if (hamburgerButton && mobileMenu && closeButton) {
+        // Toggle menu visibility when hamburger button is clicked
         hamburgerButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('visible');
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Close the mobile menu when clicking a navigation link
+        // Close the mobile menu when close button is clicked
+        closeButton.addEventListener('click', () => {
+            mobileMenu.classList.remove('visible');
+            mobileMenu.classList.add('hidden');
+        });
+
+        // Close the mobile menu and load content when a navigation link is clicked
         mobileMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.remove('visible');
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default link behavior
+                const page = link.getAttribute('href').substring(1); // Extract the page name
+                mobileMenu.classList.remove('visible'); // Hide menu
                 mobileMenu.classList.add('hidden');
-                const page = link.getAttribute('href').substring(1);
-                loadContent(page);
+                loadContent(page); // Load the selected page
             });
         });
     }
 }
+
+// Call this function after the DOM has loaded
+document.addEventListener('DOMContentLoaded', () => {
+    setupHamburgerMenu();
+});
+
 
 // Handle browser navigation
 window.addEventListener('popstate', event => {
