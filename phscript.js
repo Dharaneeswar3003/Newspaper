@@ -405,7 +405,7 @@ function renderAboutPage(container) {
                     <div class="member-info">
                         <h3><strong>Lucca Ha</strong></h3>
                         <h2>Secretary</h2>
-                        <p>I create PowerPoint presentations for editing and writing, providing clear guidelines and tools for the articles. I review, edit, and approve all articles before publication to maintain the newspaper’s quality and standards.</p>
+                        <p>I handle the newspaper’s finances, keeping track of expenses, and organizing fundraising activities. I also make sure the club runs smoothly by managing attendance and coordinating activities.</p>
                     </div>
                 </section>
             </div>
