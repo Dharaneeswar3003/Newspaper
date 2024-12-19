@@ -464,8 +464,8 @@ function loadContent(page) {
         homeImageContainer.classList.add('hidden');
     }
 
-    // Scroll to the top of the page
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+   // Scroll to top
+    window.scrollTo(0, 0);
 
     switch (page) {
         case 'article':
