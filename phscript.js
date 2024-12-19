@@ -379,7 +379,7 @@ function renderAboutPage(container) {
                     <div class="member-info">
                         <h3><strong>Julian Cohen Wood</strong></h3>
                         <h2>Social Media and Promotions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique luctus ante, sed posuere diam. Sed congue nisl ac accumsan auctor. Morbi aliquam dignissim ex a cursus.</p>
+                        <p>I manage and maintain the newspaper’s social media, ensuring it is engaging, informative, and up-to-date. I promote content by posting weekly summaries of meetings, notifications of upcoming events, and other relevant updates.</p>
                     </div>
                 </section>
                 <hr>
@@ -392,7 +392,7 @@ function renderAboutPage(container) {
                     <div class="member-info">
                         <h3><strong>Leo Ke</strong></h3>
                         <h2>Executive Editor</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique luctus ante, sed posuere diam. Sed congue nisl ac accumsan auctor. Morbi aliquam dignissim ex a cursus.</p>
+                        <p>I create PowerPoint presentations for editing and writing, providing clear guidelines and tools for the articles. I review, edit, and approve all articles before publication to maintain the newspaper’s quality and standards.</p>
                     </div>
                 </section>
                 <hr>
@@ -405,7 +405,7 @@ function renderAboutPage(container) {
                     <div class="member-info">
                         <h3><strong>Lucca Ha</strong></h3>
                         <h2>Secretary</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique luctus ante, sed posuere diam. Sed congue nisl ac accumsan auctor. Morbi aliquam dignissim ex a cursus.</p>
+                        <p>I create PowerPoint presentations for editing and writing, providing clear guidelines and tools for the articles. I review, edit, and approve all articles before publication to maintain the newspaper’s quality and standards.</p>
                     </div>
                 </section>
             </div>
