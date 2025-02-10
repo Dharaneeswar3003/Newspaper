@@ -260,7 +260,13 @@ function loadArticles(page, containerId, categoryFilter = null) {
         articleDiv.addEventListener('click', () => {
             const currentPage = window.location.pathname.split("/").pop().toLowerCase();
             // Check if the current page is index.html
-           window.location.href = `Pages/article.html?id=${article.id}`;
+           if (currentPage === "index.html") {
+                // If on index.html, link to article.html inside Pages
+                window.location.href = `Pages/article.html?id=${article.id}`;
+            } else {
+                // If on any other page, link directly to article.html
+                window.location.href = `article.html?id=${article.id}`;
+            }
 
         });
         container.appendChild(articleDiv);
