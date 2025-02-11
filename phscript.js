@@ -263,7 +263,7 @@ function loadArticles(page, containerId, categoryFilter = null) {
         
             // Correct the path to article.html dynamically
             const articlePagePath = currentPage === "index.html" || currentPage === "" 
-                ? `Pages/article.html?id=${article.id}` 
+                ? `/Newspaper/Pages/article.html?id=${article.id}` 
                 : `article.html?id=${article.id}`;
         
             window.location.href = articlePagePath;
