@@ -67,10 +67,10 @@ const articles = [
         <p><strong>When:</strong> December 7 (starting at 6pm), 2024</p>
         <p><strong>Cost:</strong> FREE (by donation)</p>
     `,
-        category: "Local News",
+        category: "Events",
         photocredit: 'Pinterest',
         image: getCorrectImagePath("/Dec/Jo.jpg"),
-        pages: ["home", "news", 'allarticles'],
+        pages: ["home", "localnews", 'allarticles'],
     },
     {
         id: 3,
@@ -86,9 +86,9 @@ const articles = [
             <p>When asked on his thoughts on the team's season performance, Mr. Johnston reflects,” While the season ended with frustration over missed opportunities, there were significant achievements and standout performances. Team captain Nicholas Holmes (12) led the offense as the top scorer, while assistant captains Naaim Motevaselan (12) and Markus Groves (12) made key contributions throughout the season. Goalkeeper Rio Sanchez (12), completing two seasons in the position despite initially lacking experience, delivered exceptional performances, earning recognition for his consistency and skill.</p>
             <p>While the final results fell short of their aspirations, the team demonstrated resilience, teamwork, and individual excellence, setting a strong foundation for future success.</p>
         `,
-        category: "School News",
+        category: "Sports",
         image: getCorrectImagePath("/Dec/Hank.jpg"),
-        pages: ["home", "news", "all"],
+        pages: ["home", "schoolnews", "all"],
     },
     {
         id: 9,
@@ -98,9 +98,9 @@ const articles = [
         title: 'Student Perspectives on Block Flip',
         description: 'Block flip is a controversial event with divided student opinions. Some students appreciate it for promoting fairness, as it allows all students to benefit from test hints, while others criticize it for adding stress, particularly for grade 12 students already managing heavy workloads. Despite the mixed views, block flip has been a long-standing tradition and is likely to remain in place.',
         content: '<br>Block flip has been something that receives significant attention during its annual occurrence. Student opinions on it are mixed. In one interview with a student, they noted that it is something that brings equality and fairness. They reasoned that since many courses have multiple blocks in a day, the students who have a later block hold an advantage as they can be made aware of ‘hints’ regarding a test that the students in the earlier block have already taken. With block flip, students in the earlier block will also be able to take advantage from this information. However, during another interview, the student considered it a terrible event that should be eliminated entirely. Especially as they are in grade 12, they express concern about the additional stress it creates, stating that they already have an overwhelming number of responsibilities to manage. Block flip has been present even before the introduction of the semester system, so despite divided student opinions, it is likely going to remain in place.',
-        category: "School News",
+        category: "School",
         image: getCorrectImagePath("/Dec/Bruce.png"),
-        pages: ["home", "news", "all"],
+        pages: ["home", "schoolnews", "all"],
     },
     {
         id: 4,
@@ -114,7 +114,7 @@ const articles = [
             <p>The arts are celebrated year-round at Byng, with many opportunities for both mini school and mainstream students to participate in. The Byng Coffeehouse, held 3-4 times per year, is a recurring after-school event organized by the Byng Arts student council, and open to all who wish to attend. Students gather in the school foyer, watching their classmates exhibit their talents. From angelic singing to knee-slapping comedy, Coffeehouse is an event one couldn’t miss. When they aren’t living it up on stage, students at Byng obtain greater proficiency in the arts through elective courses. While arts electives are required for mini school students, they are equally available to mainstream students with growing interests in the arts. From renowned choirs and orchestras to thrilling theatre and media productions, every student has their chance for virtuosity.</p>
             <p>This year, as Lord Byng secondary school celebrates its’ hundred-year anniversary, Byng Arts mini school is preparing a grandiose celebration for its’ 25th. LBSO, the Lord Byng Symphony Orchestra, a long-standing group named by The Phonix as one of the “foremost [secondary school] symphony orchestras,” will be performing a composition in honour of the event. As students prepare for the upcoming jamboree, it is now more than ever that they give thanks for their program, their teachers, and all they provide. After all, it is thanks to the mini school program that Lord Byng became and remains a safe space for students to pursue their passions and express their artistic creativity.</p>
         `,
-        category: "School",
+        category: "Byng Arts",
         photocredit: 'https://byng2.vsb.bc.ca/byngarts/',
         image: getCorrectImagePath("/Dec/Ivy.jpg"),
         pages: ['home', "features", 'all'],
@@ -141,10 +141,10 @@ const articles = [
             <p>On the other hand, William Wu discussed several problems, including disproportionate stall sizes in the boys’ washrooms, as well as the lack of and waste of materials, such as paper towels. Diving deeper into these issues, Wu further addressed the issue with wasted materials, pointing out the wasteful use of paper towels during lunch. As a result, many of the washrooms, the one on the third floor in particular, do not have any more paper towels by the end of lunch. The same wasteful behaviour can be seen with tampons and toilet paper as well, which is one of the main causes for why we have cheaper materials. Next to this, another leading cause is the lack of funding. Student council gets five- thousand dollars for the years events, which includes things like food trucks and our end of the year carnival that uses up to half the funds alone. To change all the toilet paper in the school from one-ply to two-ply for only one week would use up any money the student council has left, cutting short of our fun events. Just for one week! </p>
             <p>Overall, the student council has discussed this issue on multiple occasions and have been brainstorming solutions, but they don’t believe such drastic changes can be made in a single school year. It would be exceptionally difficult for the council to make these changes unless the school board or district steps in. So, although these switches may not happen instantly, keep your eyes open for recommendations and possible solutions!</p>
         `,
-        category: "School News",
+        category: "School",
         photocredit: 'Dharaneeswar (11)',
         image: getCorrectImagePath("/Dec/leala.jpg"),
-        pages: ["home", "news", "all"],
+        pages: ["home", "schoolnews", "all"],
     },
     {
         id: 6,
@@ -160,9 +160,9 @@ const articles = [
             <p>In conclusion, these predictions for the 2024-2025 NHL season reflect insights from various analysts and insiders. However, with a significant portion of the season still left to be played, these outcomes remain subject to change as teams continue to compete.</p>
         `,
         category: 'Sports',
-        photocredit: "Local News",
+        photocredit: "N/A",
         image: getCorrectImagePath("/Dec/Feliz.jpg"),
-        pages: ["home", "news", "all"],
+        pages: ["home", "localnews", "all"],
     },
     {
         id: 7,
@@ -177,10 +177,10 @@ const articles = [
             <p>If these events spark interest, why not go check them out? They could become a new favorite tradition to celebrate the holidays. Whether alone, with loved ones, with friends, or with family, these events will surely spice up the holiday season.  </p>
 
         `,
-        category: "Local News",
+        category: "Events",
         photocredit: 'Scott Construction Group',
         image: getCorrectImagePath("/Dec/Lydia.jpg"),
-        pages: ["home", "news", "all"],
+        pages: ["home", "localnews", "all"],
     },
     {
         id: 8,
@@ -222,8 +222,7 @@ function getCorrectImagePath(filename) {
     return `../Articlepics/${filename}`;
 }
 
-// Function to load articles for the correct section
-function loadArticles(page, containerId, categoryFilter = null) {
+function loadArticles(page, containerId) {
     const container = document.getElementById(containerId);
     if (!container) {
         console.error(`Container with ID "${containerId}" not found.`);
@@ -232,9 +231,9 @@ function loadArticles(page, containerId, categoryFilter = null) {
 
     container.innerHTML = ''; // Clear existing content
 
-    // Filter articles by page and optionally by category
+    // Filter articles by page (e.g., "schoolnews" or "localnews")
     const filteredArticles = articles.filter(article =>
-        article.pages.includes(page) && (!categoryFilter || article.category === categoryFilter)
+        article.pages.includes(page)
     );
 
     if (filteredArticles.length === 0) {
@@ -248,7 +247,7 @@ function loadArticles(page, containerId, categoryFilter = null) {
 
         articleDiv.innerHTML = `
             <div class="image-container">
-                <img src="${article.image}" alt="${article.title}"  class = "article-image">
+                <img src="${article.image}" alt="${article.title}" class="article-image">
             </div>
             <div class="article-details">
                 <h3 class="article-category">${article.category}</h3>
@@ -258,20 +257,18 @@ function loadArticles(page, containerId, categoryFilter = null) {
         `;
 
         articleDiv.addEventListener('click', () => {
-            // Get the current page file name
+            // Determine the correct path for the article page
             const currentPage = window.location.pathname.split("/").pop().toLowerCase();
-        
-            // Correct the path to article.html dynamically
-            const articlePagePath = currentPage === "index.html" || currentPage === "" 
-                ? `Pages/article.html?id=${article.id}` 
+            const articlePagePath = currentPage === "index.html" || currentPage === ""
+                ? `Pages/article.html?id=${article.id}`
                 : `article.html?id=${article.id}`;
-        
             window.location.href = articlePagePath;
         });
-        
+
         container.appendChild(articleDiv);
     });
 }
+
 
 // Function to load a single article based on URL parameter
 function loadArticlePage() {
@@ -303,23 +300,26 @@ function setupMoreArticlesButton() {
     });
 }
 
-// Initialize articles on the correct page
 document.addEventListener('DOMContentLoaded', () => {
     const currentPage = getCurrentPage();
 
-    if (currentPage === "home") loadArticles("home", "home-articles");
-    if (currentPage === "news") {
-        loadArticles("news", "schoolnews-articles", "School News");
-        loadArticles("news", "localnews-articles", "Local News");
+    if (currentPage === "home") {
+        loadArticles("home", "home-articles");
+    } else if (currentPage === "news") {
+        // Since the page is News.html, load both containers:
+        loadArticles("schoolnews", "schoolnews-articles");
+        loadArticles("localnews", "localnews-articles");
+    } else if (currentPage === "features") {
+        loadArticles("features", "features-articles");
+    } else if (currentPage === "allarticles") {
+        loadArticles("all", "all-articles");
+    } else if (currentPage === "article") {
+        loadArticlePage();
     }
-    if (currentPage === "features") loadArticles("features", "features-articles");
-    if (currentPage === "allarticles") loadArticles("all", "all-articles");
-
-    // If on the article page, load the selected article
-    if (currentPage === "article") loadArticlePage();
 
     setupMoreArticlesButton();
 });
+
 
 
 // Hamburger Menu Functionality
