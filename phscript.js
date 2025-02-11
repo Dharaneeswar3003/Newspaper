@@ -256,18 +256,6 @@ function loadArticles(page, containerId, categoryFilter = null) {
                 <p class="article-description">${article.description}</p>
             </div>
         `;
-
-        articleDiv.addEventListener('click', () => {
-            // Get the current page file name
-            const currentPage = window.location.pathname.split("/").pop().toLowerCase();
-        
-            // Correct the path to article.html dynamically
-            const articlePagePath = currentPage === "index.html" || currentPage === "" 
-                ? `/Newspaper/Pages/article.html?id=${article.id}` 
-                : `article.html?id=${article.id}`;
-        
-            window.location.href = articlePagePath;
-        });
         
         container.appendChild(articleDiv);
     });
