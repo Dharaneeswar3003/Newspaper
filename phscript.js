@@ -1,6 +1,143 @@
 const articles = [
     {
         id: 1,
+        writers: 'Leala (9), Emma (9), & Tony (9)',
+        editor: 'Charlie Zhang (10)',
+        title: 'Byng Arts: Present and Future...',
+        description: 'Lord Byng is making changes to its Byng Arts program by canceling exclusive English and Social Studies classes for older students. This decision has sparked mixed reactions, with some seeing it as a step toward inclusivity, while others feel it is dismantling a program they worked hard to be part of.',
+        content: `
+            <p>Byng arts is a mini school program at Lord Byng secondary school that provides a fine art program with specialized English and Social Studies courses. However, due to course cuts planned by the school, we may no longer see these courses on our schedules anymore.</p>
+            <p>During a course planning assembly, it was announced that Lord Byng was cancelling its Byng arts exclusive English and Social Studies for its grade 10s, 11s, and 12s, while keeping the original system for its grade 8s and 9s. This decision was criticized by many students, with the only reason being provided was to enable more students to attend schools in their catchment areas and help build connections across the entire Byng school community. </p>
+            <p>Soon after this announcement, many students organized a petition to protest this decision. This petition quickly gained many signatures very quickly and now stands at 178 signatures.</p>
+            <p>Even now, with the second semester starting, opinions about this cancellation are still mixed. Many arts students still disagree with the school’s decision, while other students find the cancellation to not affect them as much. We will be discussing both sides of this disagreement by interviewing the perspectives of students around our school.</p>
+            <p>There are many mixed opinions about the cancellation of the Byng Arts exclusive English and social studies classes, Including some of the following pros: </p>
+            <p>Some basic benefits of cancelling the Arts exclusive classes can include meeting new people. With these classes, there are less opportunities to interact or meet people in the arts as a non-Byng arts student or vice versa. </p>
+            <p>The student I’ve interviewed about this cancellation is named Angel Dong, ninth grade. Dong is not a Byng Arts student although she has considered but not applied for the Byng Arts drama program. Overall, Dong is in favour of this cancellation for numerous reasons, starting with the separation of friends in these classes. Like said before, without the exclusive classes, there will be the chance of having classes with Byng Arts students as a non-Arts student, which would not have been an option with the classes still maintained. Angel Dong also feels that the Byng Arts students are more valued in ways with more fun opportunities like Arts specific trips, and more. </p>
+            <p>In conclusion, Angel does not think the cancellation of these classes is too serious but prefers having the students not separated. This opinion is very common with other non-Byng Arts students that were interviewed because of the separation of current and / or potential friends and the missed opportunities as a non-Arts student. However, on the other side of the conflict, many Byng arts students have other things to say.</p>
+            <p>So, here’s the thing. As a current Byng arts student, I trained for Byng arts for 4 months before getting in, working my butt off, pouring hours into getting better at something I love. I had no prior experience, just a lot of passion and a serious desire to make it into a program built for people who are serious about their craft. My hard work payed off, and I did it. I’m here. But lately, it feels like they’re slowly taking it apart, piece by piece. </p>
+            <p>At first, it was little things, fewer shows, fewer events, that kind of thing. Nothing too obvious. But now? It’s becoming more and more clear. Byng Arts isn’t really Byng Arts anymore. It’s like we’re being shuffled out, little by little, like a program that was once celebrated is now quietly being dismantled. Sure, we’re still us, but piece by piece, our shared classes with our peers of the same shared passions and dedication to said passions are slowly being cancelled. First with science, and now with social studies and English. </p>
+            <p>It’s not just frustrating, it’s honestly heartbreaking. Personally, The program is a huge part of me. It’s where I push myself and where I meet people who share the same interests. Now, it feels like those opportunities are being taken away, without anyone really noticing or doing anything about it.</p>
+            <p>It’s clear that the school isn’t making any major announcements about the program’s future, just small, quiet changes that we’re all supposed to accept. And that’s what’s so hard about this. There’s no closure and no explanation. We’re just left to watch as the thing we’ve worked so hard for slowly disappears. The worst part is, I know this is happening to a lot of us who care about Byng Arts. We’re the ones who stuck with it, the ones who worked hard to be a part of it. Now, all that hard work feels like it’s being undermined by this slow, quiet dismantling.</p>
+            <p>It feels like no one really cares. Byng Arts was more than just a program, it was a place where we, the “art” kids, had the space to grow, experiment, and find out what we’re capable of, together. It’s not just about the art,it’s also about the mindset it brought to the school, the way our shared appreciation for our interests brought us together, and the community we built as a result of it. And now, that’s all slowly slipping away. It’s clear that the program isn’t gone yet, but damage is being done, and it’s hard to ignore the fact that this isn’t just a temporary setback. Byng Arts isn’t gone,but it feels increasingly like it is. If we don’t speak up and if we don’t demand that this program gets the respect it deserves, soon there won’t be anything left to fight for. </p>
+        `,
+        category: "Byng Arts",
+        image: getCorrectImagePath("/Jan/Emma.jpg"),
+        pages: ["home", "schoolnews", "all"],
+        photocredit: "change.org"
+    },
+    {
+        id: 2,
+        writers: 'Kate Cheng (8)',
+        editor: 'Guanlin Wang (12)',
+        title: 'Semester Turnaround',
+        description: 'Grade 8 students at Lord Byng are feeling both excitement and nervousness as the new semester approaches. They are adjusting to the 4-course semester system, the challenges of meeting new teachers, and adapting to different schedules. Despite the uncertainties, the students are gradually settling into their high school life.',
+        content: `
+            <p>As the end of January approaches, a great deal of excitement and apprehension weaves through the corridors. Students’ chatter about it rises in numbers, swapping schedules, hoping they are in the same class as their best friends. Amongst them are the grade 8s, newly arrivals of Lord Byng who are still trying to figure out their place in this school.To them, semester change is a huge deal, with opinions ranging from relief to frustration.</p>
+            <p>General public high schools in British Columbia follow the 4-course semester system, put in place by the Vancouver School Board (VSB). While some places in the world follow an 8-course linear system, most students have deemed the semester system to be better, and preferred it over the linear system as they would have more time to focus on the subjects. Anahita Dehghani, a grade 8 student, remarks in an interview that she agrees with the 4-course semester system because it gives her more time to learn in her subjects, and she states that the schoolwork load seems easier to focus on.</p>
+            <p>Most of the interviewees responded that they feel nervous because they don’t know their teachers from semester two yet. Grade 8s have begun to embrace the change and slowly start to slip into their new high school life. However, there are still times they feel a bit doubtful and unease, like the changing timetable of semester turnaround, meeting new teachers, and adjusting to new subjects. Grade 8s have adjusted tremendously well at the beginning of the school year, and we wish them the best to continue on in semester two for their first year of their high school journey.</p>
+</p>
+        `,
+        category: "Opinions",
+        image: getCorrectImagePath("/Jan/Kate.jpg"),
+        pages: ["home", "schoolnews", "all"],
+        photocredit: "N/A"
+    },
+    {
+        id: 3,
+        writers: 'Johanna Kim (11) & Ivy Kettlewell (11)',
+        editor: 'Tara Pai (11)',
+        title: 'Valentine’s Day Date Ideas!',
+        description: 'Jovy suggests fun and creative ideas for Valentine’s Day that go beyond the usual dinner and a movie. Whether you are on a date or hanging out with friends, you can try things like ice skating, laser tag, or even making a cozy blanket and scrapbook together.',
+        content: `
+            <h5><strong>Calling all lovers!</strong></h5>
+    <p>Can't think of ideas to celebrate Valentine's Day with your special someone? Never fear, Jovy's here!</p>
+    <p>Since it's such a romantic time of year, we've created a fun mix of date options (that aren't just dinner and movies) just for you!</p>
+
+    <p><strong>Ice Skating!</strong></p>
+    <p>This activity is perfect for the wintery weather we're having! Enjoy struggling to keep your balance while holding on to each other, or gliding gracefully with your partner while taking in the romantic atmosphere! Once you're done with skating, cozy up with some hot cocoa and your loved one!</p>
+    
+    <p><strong>Lazer Tag (Jo's personal favourite!)</strong></p>
+    <p>Lazer tag is peak romance and a totally epic date. What could be more fun than shooting your partner and chasing each other up and down obstacle-filled levels in the dark? This idea is such a fun way to show your competitive side while still having tons of fun together!</p>
+    
+    <p><strong>Staying In? Try Blanket Knotting and Scrapbooking!</strong></p>
+    <p>Blanket Knotting is a cozy and cute project for any couple! Simply go to your nearest fabric store, have each person pick out a large rectangle (a little bigger than you want the blanket to be) of their favourite fabric and cut about 3 inches deep and 1/2 inch wide on all sides. Line up both fabrics and begin knotting the pieces together! Once the blanket is complete, snuggle on up under it and watch your favourite movie!</p>
+    
+    <p>To make a sentimental scrapbook, collect and cut out your favourite pictures of each other, along with decorations such as stickers, ribbons, or little mementos you've collected from various dates! Stick 'em in a blank book while reminiscing on fond memories you have with each other!</p>
+    
+    <p>Retro Dinner & Movie Night! <strong>(Ivy's personal favourite!)</strong></p>
+    <p>All you need to do for this walk down memory lane with your sweetheart is to visit an adorable vintage-themed diner, complete with Elvis' music playing in the background! To top the experience, split a house milkshake and find your song on the jukebox! After enjoying your dinner, dance your way to a photo booth and take silly photos (perfect to add to that scrapbook)!</p>
+    
+    <h5>No Date? No Problem!</h5>
+    <p><strong>Board & Game Night</strong></p>
+    <p>Have each person bring either a board to share (i.e charcuterie, fruit platter, baked goods), or a game to play (i.e Monopoly, Scrabble, Cards Against Humanity)! The night will be full of fun, food, and friendly competition (or real competition)!</p>
+    
+    <p><strong>Dance Party Night</strong></p>
+    <p>Love to go dance with your friends? A Dance Party Night is the way to go! Just grab your dancing shoes and a friend and dance the night away! This fabulous event can be hosted at someone's house or wherever one is available! This is such a fun way to let loose and live a little!</p>
+        `,
+        category: "Features",
+        image: getCorrectImagePath("/Jan/Jo.jpg"),
+        pages: ["home", "features", "all"],
+        photocredit: "N/A"
+    },
+    {
+        id: 4,
+        writers: 'Noelle (8), Aleen (8), & Jasmine (8)',
+        editor: 'Tara Pai (11)',
+        title: 'The Grade 8 Experience at Lord Byng',
+        description: 'Starting high school can be daunting, but Grade 8 students at Lord Byng quickly adapt to their new environment. From navigating the facilities and joining extracurriculars to tackling academics and building a sense of community, their experiences shape their transition. ',
+        content: `
+            <p>No matter the background a student comes from, the first year of high school is always a daunting experience. To better understand the Grade 8 experience at Lord Byng Secondary from the student’s perspective, 50 surveys were handed out to students in the attempt to gather information on what grade 8 is like today. The aspects of school that affect 8th grade students have been compressed into five categories: Grounds/facilities, extracurriculars, academics, organization, and community. So what is it that makes up a new student’s school life today? </p>
+            <p>When attending a high school as large as Lord Byng, students have access to a wide variety of resources and facilities. A grade 8 student stated that their first impression of Byng was that it was a “humongous” establishment, but after a few months of school “it [didn’t] feel like that” anymore. Many students take time to adapt to the larger environment, and struggle to transition to the larger grounds and greater classes. According to students surveyed, 30.4% of new students are satisfied, and 41.3% of students gave no opinion. With the large majority of students having no complaints in regards to grounds and facilities, Byng has had a positive impact on its youngest learners. In opposition, 21.7% of students rated the facilities as ‘bad,’ and 6.5% as ‘very bad.’ The justification behind the student’s displeased comments follows thus; the school bathrooms, old and unkempt, rarely lock or close at all, making the students uncomfortable during use. In addition, the school WiFi, notoriously unreliable, makes it extraordinarily difficult to complete online activities and play Kahoot, a game favoured in many grade 8 classrooms.</p>
+            <p>When observing the changes one experiences when going from elementary school to high school, the vast number and varying maturity of students in high school comes to mind. Unlike younger grades, in which students perform all the same activities and gather all the same skill sets, high school allows students to focus on their passions, and expand in areas they are interested in. Grade 8 students enjoy the ability to expand on their passions through Byng’s wide variety of extracurricular activities. When questioned about their views on Byng’s club/team options, 23.4% of students rated them as ‘excellent,’ 38.4% as ‘good,’and 34% had no relevant comments. With only 4.3% of students dissatisfied with the extracurricular resources available, Byng’s Grade 8 students are appreciative of the opportunities with which they are presented. As a fine arts-focused establishment, Lord Byng offers a broad selection of fine arts courses to all students. A great misconception in younger Byng students is that the arts courses are only available to Byng Arts students. This is not true. It is instead the case that the highest level courses are enterable by audition, allowing students to “play with other people who like their hobby” as well as they do (Anonymous Byng Student.) Overall, the increased variety of clubs, sports teams, and additional programs gives students the opportunity to pursue new interests and connect with like minded students; opportunities that were not so accessible in elementary school.</p>
+            <p>A major change new students face between elementary and high school is in the increase in teachers each student experiences. Going from one singular teacher to four at once, and then another four teachers the very next semester can be daunting. Furthermore, the students are expected to consume a prodigious amount of knowledge in a short period of time, creating a dramatically different, stress-filled environment much unlike the comfort of an elementary classroom. This learning system - the semester system - has been criticized by teachers and students alike for its score-centred and rushed structure. When surveyed about Byng’s academic abstrusity and structure, 40.4% rated it ‘good’, 8.5% rated it ‘excellent’, 12.8% rated it ‘bad’, 8.5% rated it ‘very bad’, and 29.8% rated ‘neutral’. With the majority of students content with Lord Byng’s academics, it is evident that the transition into higher level courses, while initially demoralizing, remains manageable.</p>
+            <p>As the defining trait of any good high school, community builds the morality of a high school. Byng flourishes in regards to its community, with 29.8% of the students surveyed rated the community as ‘excellent,’ 19.1% rated it ‘good,’ 29.8% of the students surveyed showed no strong opinion and rated as ‘neutral,’ 12.8% rated it ‘bad,’ and 8.5% rated it ‘very bad.’ The preponderance of community-minded people amongst Byng students leads the survey results to favour a positive perception of the school’s community. “The people are the best part about Lord Byng,” an anonymous Byng student stated. “Since there are different classes, my friends… …vary [in] each period.”</p>
+            <p>At the start of this year, several emails were sent regarding information on assemblies, lockers, and homerooms. Students also had the option to go to an orientation day, on which there was a tour and question-and-answer period. The majority of grade 8s are satisfied with Byng’s student-school communication. 25.5% of students rated Lord Byng’s organization ‘great’, 6.4% of the students stated that it was ‘excellent,’ 36.2% stated that it was ‘neutral,’ 21.3% rated it ‘bad,’ and 10.6% of the students rated it ‘very bad.’ It seems that the majority of negative responses are due to students' fear of missing information regarding their first day. Needless to say, most Grade 8s were quite nervous about grade 8, and relied on peer counselors and staff members to answer questions at school the very first day. Overall, Lord Byng’s organization when assisting new students has helped introduce new students to the school, and are urged by young students to continue to help their grade 8s transition smoothly.</p>
+            <p>The daunting experience of a student’s first year of high school is greatly impacted by the school’s facilities, extracurriculars, academics, community, and events. No matter the background a student comes from, they can adapt to their new environment free from the vicissitude shown in so many typical high school films, and instead find new friends, make new memories, and have an overall wonderful experience at our school of Lord Byng.</p>
+        `,
+        category: "Opinions",
+        image: getCorrectImagePath("/Jan/noelle.jpg"),
+        pages: ["home", "schoolnews", "all"],
+        photocredit: "The Custodian"
+    },
+    {
+        id: 5,
+        writers: 'Lina Kotoge (11) & Evelyn Tung (11)',
+        editor: 'Keetan Ner (11)',
+        title: 'A Scientific Guide to Productivity',
+        description: 'With Semester 2 starting, it’s a great time to reflect on daily habits that impact academic performance. Small changes such as improving sleep schedules and reducing screen time can lead to better focus, productivity, and overall well-being.',
+        content: `
+            <p>With Semester 1 ending and Semester 2 approaching, it is about time to reflect on daily habits that may affect our academic performance. As students ourselves, we understand the challenge  of studying for multiple assessments while balancing different priorities in our lives. In this article, we aim to provide tips and advice that are based on our personal experiences and scientific proof. This can be an opportunity to boost productivity and be successful in life!</p>
+            <p>One of the most overlooked and neglected aspects of daily life would have to be sleep. On average, many people sleep at 1-2 am, and wake up at roughly around 7:30 to get ready to go to school. Biologically, sleep helps to rest the mind and body. Scientifically, sleep consists of 4 stages: NREM 1, 2, 3 and REM. REM stands for restless eye movement. Each of these stages of sleep are accompanied by different waves: alpha , theta, delta and beta. The NREM stages  are present to rest our body, while REM is one of the most important stages, where the mind is being rested. With the mind getting a rest from the busy day, it can help to clear our mind and let us actually rest. When sleep duration is reduced, there is less time spent in REM, which can negatively impact cognitive functions and overall well-being.</p>
+            <p>There are also some small habits which people often overlook, which may seem easier said than done. However, once you take a chance to take some action, your life will change for the better! As mentioned above, sleep is incredibly important, and it should not  be neglected. It is not just about getting enough sleep, though; maintaining a consistent sleep schedule by going to bed and waking up at the same time helps regulate the body’s internal clock.  After waking up, get out of bed immediately and start making it. Proceed with tidying up your surroundings, because a clean room equals a clean mind. Writing tasks on an agenda, or even making a simple to-do list can be beneficial. Some may prefer handwritten tasks, while some may prefer smartphone apps. Either way, any method can help structure the day effectively . These methods have worked for us, and we encourage others to take an initiative to try them out for yourselves!</p>
+            <p>Personally, we have only started to develop these habits a few years ago in high school. During the later times of the pandemic, “StudyTube”, “StudyTok”, and “StudyGram” went viral in these different social media platforms, where influencers share short-form content, displaying aesthetic lifestyles and study tips in hopes to motivate others to be productive as well. Although influencers have preached these techniques, we learned that they do not work for everyone. Instead, we tried some of them ourselves before settling on a few, ensuring that they work for us in our daily lives. On top of that, addictive social media content comes with increased screen time. We all know that in this generation, almost everybody has a smartphone, and we scroll on social media way too much. Not many realize that prolonged screen time can cause physical pain on the neck, shoulder, and the back, which comes from poor posture while using all these devices. Additionally, it can negatively affects our mental health, increasing feelings of anxiety, depression, and even suicidal thoughts. Reducing screen time can improve focus and minimize distractions, leading to better productivity. Having both bad physical and mental health is detrimental to one’s productivity, so taking a break from screen time–even for a short time can be a step towards a more positive lifestyle.</p>
+
+        `,
+        category: "Features",
+        image: getCorrectImagePath("/Jan/Lina.jpg"),
+        pages: ["home", "features", "all"],
+        photocredit: "N/A"
+    },
+    {
+        id: 6,
+        writers: 'Lottie Gilmore (9)',
+        editor: 'Keetan Ner (11)',
+        photocredit: 'Julian Wood (11)',
+        title: 'Furniture Follies: An Inside Look',
+        description: 'Families and students gathered in the Byng auditorium for the Grade 9 Arts production, <em>Furniture Follies</em>, an 80-minute show staged like a TV sitcom. The play featured quirky humor and unexpected moments as it unfolded in a furniture store setting. With collaborative rehearsals and rapid script development, the cast delivered a standout performance that resonated with the audience.',
+        content: `
+            <p>On January fifteenth and sixteenth, families and students gathered in the Byng auditorium for a special performance. The production, <em>Furniture Follies</em> was an 80 minute show put on and partially written by the grade 9 Byng Arts students! If you missed the production or saw it along with many students and families at Byng, this article is here to tell you about the overall show and the process behind creating and writing it.</p>
+            <p>The Byng Arts 9 students wrote the first act of the show, while the second act was written by Ian McWethy and Jason Pizzarello. The entirety of the show was directed by Matthew Thiessen, the Byng Arts Drama teacher. <em>Furniture Follies</em> takes place in a furniture store, where in each act, different stories unfold, including the store getting shut down and the internet going out. Both acts depict the antics of the customers and employees as they navigate these scenarios. The performance is unique in that it is staged like a TV sitcom, complete with a TV show opening, which allowed the actors to embrace different types of comedy and bring the production to life!</p>
+            <p>Actors in the play navigated some captivating (and sometimes bizarre) situations. In one scene, wealthy duchesses lost their precious cat, only to discover it trapped inside of a couch! In another scene in Act 2, one of the employees, played by Ana Trajkovic, struggled to cope without posting pictures on social media. As a solution, she roamed the store showing printed pictures of her life to unsuspecting employees and customers.</p>
+            <p>The show took the actors a small amount of time to write and rehearse, finishing the script by late October. The actors worked with their classmates in small groups to write the scenes they acted in. Clearly, a lot of work went into perfecting the show. Cast members said they were able to offer each other constructive criticism without making anyone feel diminished, which helped them grow as both performers and friends. Some mistakes discovered during rehearsals were kept in the final production, a decision that added comedic value for the audience. For example, an extra line added during the Titanic scene in Act 1 turned into a funny, quirky moment. The audience certainly agreed!</p>
+            <p>“It was exhilarating for it (the performance) to be over, but it also ended too quickly,” said Hannah Corbett, one of the cast members, in an interview. She mentioned that the performance felt a bit like practice since they were already so familiar with the show from an earlier run. The crowd was respectful and kind, laughing along with friends and family. One parent noted that her family enjoyed the show just as much as they would a professional production. The actors' determination to create an enjoyable performance clearly resonated with the audience.</p>
+            <p>The grade 9 drama cast delivered a fun, quirky, and standout performance, thanks to all the time and thought they put into it. Each actor’s strengths shone through, enhancing the play’s comedy and turning simple lines or mistakes into memorable highlights. The cast bonded as a group both onstage and during rehearsals, truly giving their all. I look forward to seeing more from this talented cast this school year! Special thanks to Hannah Corbett and Charli Kemper for allowing the use of their interview quotes in this article.</p>
+        `,
+        category: "Events",
+        image: getCorrectImagePath("/Jan/Lottie.png"),
+        pages: ["home", "schoolnews", "all"],
+    },
+    {
+        id: 7,
         writers: 'Sean Wallace (09) & Tony Xu (09)',
         editor: 'Guanlin Wang (12)',
         title: 'Mastering the Capstone: Teacher Tips and Insights for Success',
@@ -15,11 +152,11 @@ const articles = [
         `,
         category: "Features",
         image: getCorrectImagePath("/Dec/Emma.jpg"),
-        pages: ["home", "features", "all"],
+        pages: ["features", "all"],
         photocredit: "N/A"
     },
     {
-        id: 2,
+        id: 8,
         writers: 'Johanna Kim (11) & Lina Kotoge (11)',
         editor: 'Tara Pai (11)',
         title: 'Festive Fun in Vancouver: Top Christmas Events to Celebrate the Season!',
@@ -70,10 +207,10 @@ const articles = [
         category: "Events",
         photocredit: 'Pinterest',
         image: getCorrectImagePath("/Dec/Jo.jpg"),
-        pages: ["home", "localnews", 'allarticles'],
+        pages: ["localnews", 'allarticles'],
     },
     {
-        id: 3,
+        id: 9,
         writers: 'Hank Cheung (10)',
         editor: 'Guanlin Wang (12)',
         photocredit: 'Caitlyn Wallace (12)',
@@ -88,22 +225,10 @@ const articles = [
         `,
         category: "Sports",
         image: getCorrectImagePath("/Dec/Hank.jpg"),
-        pages: ["home", "schoolnews", "all"],
+        pages: ["schoolnews", "all"],
     },
     {
-        id: 9,
-        writers: 'Bruce Zhang (12)',
-        editor: 'Keetan Ner (11)',
-        photocredit: 'VSB',
-        title: 'Student Perspectives on Block Flip',
-        description: 'Block flip is a controversial event with divided student opinions. Some students appreciate it for promoting fairness, as it allows all students to benefit from test hints, while others criticize it for adding stress, particularly for grade 12 students already managing heavy workloads. Despite the mixed views, block flip has been a long-standing tradition and is likely to remain in place.',
-        content: '<br>Block flip has been something that receives significant attention during its annual occurrence. Student opinions on it are mixed. In one interview with a student, they noted that it is something that brings equality and fairness. They reasoned that since many courses have multiple blocks in a day, the students who have a later block hold an advantage as they can be made aware of ‘hints’ regarding a test that the students in the earlier block have already taken. With block flip, students in the earlier block will also be able to take advantage from this information. However, during another interview, the student considered it a terrible event that should be eliminated entirely. Especially as they are in grade 12, they express concern about the additional stress it creates, stating that they already have an overwhelming number of responsibilities to manage. Block flip has been present even before the introduction of the semester system, so despite divided student opinions, it is likely going to remain in place.',
-        category: "School",
-        image: getCorrectImagePath("/Dec/Bruce.png"),
-        pages: ["home", "schoolnews", "all"],
-    },
-    {
-        id: 4,
+        id: 10,
         writers: 'Ivy Kettlewell (11)',
         title: 'History of Byng Arts',
         editor: 'Tara Pai (11)',
@@ -117,10 +242,10 @@ const articles = [
         category: "Byng Arts",
         photocredit: 'https://byng2.vsb.bc.ca/byngarts/',
         image: getCorrectImagePath("/Dec/Ivy.jpg"),
-        pages: ['home', "features", 'all'],
+        pages: ["schoolnews", "all"],
     },
     {
-        id: 5,
+        id: 11,
         writers: 'Emma Wang & Leala Chang ',
         title: 'The Stinkin’ Truth',
         editor: 'Charlie Zhang (10)',
@@ -144,10 +269,10 @@ const articles = [
         category: "School",
         photocredit: 'Dharaneeswar (11)',
         image: getCorrectImagePath("/Dec/leala.jpg"),
-        pages: ["home", "schoolnews", "all"],
+        pages: ["schoolnews", "all"],
     },
     {
-        id: 6,
+        id: 12,
         writers: 'Felix Zhou (10)',
         editor: 'Guanlin Wang (12)',
         title: '2024-25 NHL Predictions',
@@ -162,10 +287,10 @@ const articles = [
         category: 'Sports',
         photocredit: "N/A",
         image: getCorrectImagePath("/Dec/Feliz.jpg"),
-        pages: ["home", "localnews", "all"],
+        pages: ["localnews", "all"],
     },
     {
-        id: 7,
+        id: 13,
         writers: 'Lydia Fan (10)',
         editor:'Charlie Zhang (10)',
         title: 'Upcoming Events in Wesbrook Village and the Old Barn Community Centre',
@@ -180,10 +305,10 @@ const articles = [
         category: "Events",
         photocredit: 'Scott Construction Group',
         image: getCorrectImagePath("/Dec/Lydia.jpg"),
-        pages: ["home", "localnews", "all"],
+        pages: ["localnews", "all"],
     },
     {
-        id: 8,
+        id: 14,
         writers: 'Emily (10), Tyron (10), Charlie (10)',
         editor: 'Keetan Ner (11)',
         title: 'Building a Better Byng: Positive Developments for the School',
@@ -198,7 +323,70 @@ const articles = [
         category: "School",
         photocredit: 'Lord Byng Administration',
         image: getCorrectImagePath("/Dec/Emily.png"),
-        pages: ["home", "features", "all"],
+        pages: ["schoolnews", "all"],
+    },
+    {
+        id: 15,
+        writers: 'Bruce Zhang (12)',
+        editor: 'Keetan Ner (11)',
+        photocredit: 'VSB',
+        title: 'Student Perspectives on Block Flip',
+        description: 'Block flip is a controversial event with divided student opinions. Some students appreciate it for promoting fairness, as it allows all students to benefit from test hints, while others criticize it for adding stress, particularly for grade 12 students already managing heavy workloads. Despite the mixed views, block flip has been a long-standing tradition and is likely to remain in place.',
+        content: '<br>Block flip has been something that receives significant attention during its annual occurrence. Student opinions on it are mixed. In one interview with a student, they noted that it is something that brings equality and fairness. They reasoned that since many courses have multiple blocks in a day, the students who have a later block hold an advantage as they can be made aware of ‘hints’ regarding a test that the students in the earlier block have already taken. With block flip, students in the earlier block will also be able to take advantage from this information. However, during another interview, the student considered it a terrible event that should be eliminated entirely. Especially as they are in grade 12, they express concern about the additional stress it creates, stating that they already have an overwhelming number of responsibilities to manage. Block flip has been present even before the introduction of the semester system, so despite divided student opinions, it is likely going to remain in place.',
+        category: "School",
+        image: getCorrectImagePath("/Dec/Bruce.png"),
+        pages: ["schoolnews", "all"],
+    },
+    {
+        id: 16,
+        writers: 'Lottie Gilmore (9)',
+        editor: 'Tara Pai (11)',
+        photocredit: 'N/A',
+        title: 'Record-Breaking Tour Ends in Vancouver',
+        description: 'Taylor Swift’s The Eras Tour, one of the highest-grossing tours of all time, wrapped up its two-year global run in Vancouver with a memorable and energetic finale. With new projects on the horizon, including album rerecordings and her directorial debut, Swift continues to redefine the music industry while leaving a lasting impact on fans worldwide.',
+        content: `
+  <p>
+    Since its debut in spring of 2023, Taylor Swift’s ‘The Eras Tour’ has become not only a global phenomenon with 150 tour dates all over the world but also the highest-grossing tour of all time, with over one billion dollars in ticket sales. After a momentous two-year run, ‘The Eras Tour’ ended in our city of Vancouver! From December sixth through eighth, thousands of fans gathered down at BC Place for what was certainly a memorable end to an unforgettable tour. Though many fans are sad to see the tour end, Swift has given her fans two years' worth of memories that they will cherish forever.
+  </p>
+  
+  <p>
+    Since Swift’s tour was set to end in our great city of Vancouver, local businesses and organizations had been preparing for the exciting event. Studies showed that the concert would bring an estimated 157 million dollars to Vancouver’s economy—with 97 million of that spending going towards local accommodations, food, and transportation (most likely from out-of-town fans)—so the city was gearing up for all the business. Mayor Ken Sim stated in an interview, “This iconic event hasn’t just captivated audiences around the world, it has translated into a huge economic boost for every city it has visited, and Vancouver is no exception.” The Vancouver tour dates were expected to bring an estimated 150,000 fans downtown. There were over 82,000 hotel rooms booked for that time, and many of the remaining accommodations were being listed for over a thousand dollars each. Not only businesses but local organizations were preparing too; Destination Downtown put up giant light-up signs around downtown and Granville Island featuring the names of Swift’s songs—thirteen in all—including the “Vancouver” sign in Coal Harbor, which was altered to say “Swiftcouver.” Local fans appreciated the city’s efforts, and visiting fans likely added many Taylor Swift-themed destinations to their itineraries.
+  </p>
+  
+  <p>
+    I can’t talk about ‘The Eras Tour’ without mentioning the dedicated fans. They are what make each concert lively and fun, and as Swift herself has said, they fuel her music. Local fans decorated Vancouver, planned Swiftie events, and made countless friendship bracelets—Michaels even noted a 300% increase in bead sales and made over 22,000 bracelets through in-store classes. During the concert, after Swift played the fan-favorite song “Champagne Problems” from her 2021 album <em>Evermore</em>, the whole stadium gave her a standing ovation—a tradition that challenges cities to give the longest ovation (with the record being about eight minutes from her SoFi Stadium performance in California). Although Vancouver didn’t break that record, Swift still received an amazing long ovation. And in Seattle, fans singing and dancing during her 2014 hit “Shake It Off” even caused seismic activity equivalent to a 2.3 magnitude earthquake, a phenomenon coined the ‘Swiftquake.’ Swift noted on the final performance night that over ten million people attended her tour over the course of two years, and her fans continue to take extraordinary pride in their fandom.
+  </p>
+  
+  <p>
+    As someone who attended the concert, I had the best time. From opener Gracie Abrams playing her new album, <em>The Secret of Us</em>, to Swift appearing in her bejeweled outfits, I can safely say that I, along with the rest of Vancouver, will not soon forget the experience. Everyone received a glow bracelet at the gate, which created waves of color during Swift’s songs. The concert was bright, fun, and nostalgic—especially with Swift playing many of her older hits. Even if you were unable to obtain tickets, downtown events like “Taylor Town” in Yaletown were full of music, Taylor Swift-themed activities, and like-minded fans from all over Vancouver. On night two, I even went outside BC Place to listen to the concert, joining over a hundred people trading bracelets and singing their hearts out. Both experiences were magical, whether you had a ticket or not, making the end of ‘The Eras Tour’ a joyful one.
+  </p>
+  
+  <p>
+    So, what is next for Swift? How could she possibly do more? At the final three concerts, fans (myself included) noticed that Swift was filming herself onstage with a camera crew. The same happened outside the stadium, where tailgating fans were filmed by a similar crew with a public filming notice. What could she be filming for? Perhaps a rerelease of her record–breaking concert film? She is also set to begin filming her directorial debut next year, and there are two rerecordings of her albums planned—her sixth studio album <em>Reputation</em> and her self-titled debut LP. There’s no rest for this superstar!
+  </p>
+  
+  <p><strong>Amazing Statistics:</strong></p>
+  <ul>
+    <li>
+      Swift played her song “All Too Well (Ten Minute Version)” live for 1,490 minutes on the tour, equivalent to over 24 hours!
+    </li>
+    <li>
+      She performed onstage for over 520 hours, equivalent to almost twenty-two days.
+    </li>
+    <li>
+      She performed in 5 of the 7 continents: North America, South America, Asia, Europe, and Australia.
+    </li>
+    <li>
+      The whole tour, from March 17, 2023, to December 8, 2024, lasted 633 days total, including tour breaks.
+    </li>
+    <li>
+      She announced three albums over the course of the tour: <em>Speak Now (Taylor’s Version)</em>, <em>1989 (Taylor’s Version)</em>, and <em>The Tortured Poets Department</em>.
+    </li>
+  </ul>
+        `,
+        category: "School",
+        image: getCorrectImagePath("/Dec/Lottie.jpg"),
+        pages: ["localnews", "all"],
     },
 ];
 
