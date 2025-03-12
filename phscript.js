@@ -22,7 +22,7 @@ const articles = [
 <p>Thank you for your consideration!</p>
 <p>Hudson Harris</p>
 <p>...</p>
-<p>If you would like to support this program, visit <a href = "https://www.gofundme.com/f/risefamilycamp">https://www.gofundme.com/f/risefamilycamp</a></p>
+<p>If you would like to support this program, visit <a href = "https://www.gofundme.com/f/risefamilycamp">gofundme.com/f/risefamilycamp</a></p>
         `,
         category: "Other",
         image: getCorrectImagePath("/Jan/Hudson.jpg"),
