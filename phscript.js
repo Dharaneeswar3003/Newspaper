@@ -19,9 +19,10 @@ const articles = [
 <p>I aim to cover expenses for participating families and pay for all associated costs to run the event, including speaker fees, food, boat transport, and on-site medical support. All proceeds from this fundraiser will go towards this event. Your support would mean the world to me!</p>
 <p>Although my family learned the hard way that there is not enough support in the present healthcare system for young families, change is possible. I am here to try to spark that change and, with your help, create a ripple effect!</p>
 <p>Many young families are facing these hard days right now. Let’s all do our part to ease the way for these families in any way we can!</p>
-<p>…</p>
 <p>Thank you for your consideration!</p>
 <p>Hudson Harris</p>
+<p>...</p>
+<p>If you would like to support this program, visit <a href = "https://www.gofundme.com/f/risefamilycamp">https://www.gofundme.com/f/risefamilycamp</a></p>
         `,
         category: "Other",
         image: getCorrectImagePath("/Jan/Hudson.jpg"),
