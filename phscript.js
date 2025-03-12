@@ -1,6 +1,33 @@
 const articles = [
-    {
+     {
         id: 1,
+        writers: 'Hudson Harris',
+        editor: 'N/A',
+        title: 'Rise Family Camp',
+        description: 'Hudson Harris, a 17-year-old advocate, is spearheading the Rise Family Cancer Camp to support young families navigating a parent’s cancer diagnosis. Inspired by his own childhood experience when his mother battled acute myeloid leukemia, he aims to create a space for connection, healing, and respite. He is organizing a day of support, activities, and inspirational talks on May 31st, 2025, in British Columbia.',
+        content: `
+            <p>Hi there, my name is Hudson. I am a 17-year-old on a mission to generate awareness and support for the young families of parents facing cancer.</p>
+<p>The photo above is of my family in 2012 when my mom faced a trying battle with acute myeloid leukemia. I was just 4 when she was diagnosed, and my younger brother was barely 2. My mom was admitted to the hospital right away, and my world turned upside down.</p>
+<p>My brother and I were left with feelings of confusion, sadness and worry for our mom's survival. We felt a level of disconnection from usual support systems, including family and friends, during this critical time. What would have helped us significantly throughout our mom’s five years in the hospital would have been connecting and opening up with other kids our age who also had a parent facing cancer and were experiencing what we were going through.</p>
+<p>There were no mental health support programs or connection services offered at the time to our young family through the hospital or the cancer agency, even when my mom was told she only had 2 months to live. There was no equivalent to the Canucks House for families like ours. Miraculously, my mom defied all the odds and survived! But cancer took its toll, she faced other complications keeping her in the hospital for five years and because of the stresses on our family, my parents ended up separated weeks after my mom was discharged.</p>
+<p>Cancer steals so much, bringing added stress, fear and angst to day-to-day life and relationships, leading to higher rates of divorce when a family faces cancer… Beyond the physical and financial burdens, a cancer diagnosis introduces immense stress that can strain even the strongest relationships.</p>
+<p>The need for support for these families is what has led me to spearhead the Rise Family Cancer Camp. The camp aims to support and connect both kids and parents, giving these families a chance to stay together. Together, we can help families weather this storm by fostering understanding and unity.</p>
+<p>This camp will allow children, spouses, and patients to connect with other families in similar situations and also have an opportunity to listen and talk with inspirational speakers and therapists in a workshop environment. It will also give these families a brief break from the everyday hardships of cancer, allowing them to engage in fun activities with their whole family.</p>
+<p>My initiative has been well received so far. Camp Latona and Rise Today Consulting Corp Services have partnered with me to bring this vision to life. I have organized a day of pampering, games, activities, connection, and inspirational talks for young families on May 31st, 2025, at the amazing Camp Latona in beautiful British Columbia, Canada.</p>
+<p>I aim to cover expenses for participating families and pay for all associated costs to run the event, including speaker fees, food, boat transport, and on-site medical support. All proceeds from this fundraiser will go towards this event. Your support would mean the world to me!</p>
+<p>Although my family learned the hard way that there is not enough support in the present healthcare system for young families, change is possible. I am here to try to spark that change and, with your help, create a ripple effect!</p>
+<p>Many young families are facing these hard days right now. Let’s all do our part to ease the way for these families in any way we can!</p>
+<p>…</p>
+<p>Thank you for your consideration!</p>
+<p>Hudson Harris</p>
+        `,
+        category: "Other",
+        image: getCorrectImagePath("/Jan/Hudson.jpg"),
+        pages: ["home", "features", "all"],
+        photocredit: "N/A"
+    },
+    {
+        id: 17,
         writers: 'Leala (9), Emma (9), & Tony (9)',
         editor: 'Charlie Zhang (10)',
         title: 'Byng Arts: Present and Future...',
